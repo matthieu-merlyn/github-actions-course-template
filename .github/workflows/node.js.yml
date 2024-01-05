@@ -22,6 +22,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: webpack artifacts
+        node-version: 16.x
         path: public/
 
   test:
